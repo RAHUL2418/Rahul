@@ -1,16 +1,26 @@
 namespace Rahul;
-
-class About extends Me 
+class Journey extends Life
 {
-    public function AboutMe()
+    public function WhoAmI()
     {
-        'Pronouns' => [ 'He' | 'Him' ] 🚀
-        'MSc Data Science Student' => [ 'AI' ] 🤖
-        'Skills' => [ 'Full Stack Development', 'Data Science', 'Machine Learning' ]
+        return [
+            'Pronouns' => ['He', 'Him'] 😄,
+            'Role' => 'Aspiring Data Scientist 🧠',
+            'Student' => '@CIT 🎓',
+            'Loves' => ['Tech 💻', 'Stats 📊', 'Coffee ☕']
+        ];
     }
-    
-    public function Quote()
+
+    public function Motto()
     {
-        return "Code is like humor. When you have to explain it, it's bad.";
+        for ($day = 1; $day <= ∞; $day++)
+        {
+            Do:
+            Eat('🍕');
+            Learn('📚');
+            Build('🛠️');
+            Dream('🌟');
+            Loop;
+        }
     }
 }
